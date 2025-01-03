@@ -1,14 +1,10 @@
+#!/bin/bash
 
+echo "enter username" 
+read -s username
+echo "username here: $username"
+echo "enter password"
+read  -s password
+echo "password here $password"
 
-echo enter usern ame 
-
-read user name
-
-echo user name her $user name
-
-echo enter password
-
-read  password
-
-echo password her $password
 
