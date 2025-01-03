@@ -1,10 +1,14 @@
 
 
-echo enter user name 
+echo enter username 
 
 read user name
 
+echo user name her $username
+
 echo enter password
 
-read password
+read  password
+
+echo password her $password
 
