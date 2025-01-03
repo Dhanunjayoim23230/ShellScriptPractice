@@ -1,7 +1,7 @@
 #!/bin/bash
 
-Person1:Vrushali
-Person2:Nanna
+Person1=Vrushali
+Person2=Nanna
 #No space before and after equal operator
 
 
