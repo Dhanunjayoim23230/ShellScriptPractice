@@ -6,7 +6,8 @@
 Var_1=10
 Var_2=20
 
-Sum=' expr Var_1 + Var_2 '
+Sum=' expr $Var_1 + $Var_2 '
+Addition='expr 2 + 2'
 echo "Sum of two: $Sum"
-
+echo "Additin of : $Addition"
 echo "Successfully created scalar variable-> used scalar variable syntax"
