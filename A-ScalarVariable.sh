@@ -11,6 +11,10 @@ B=20
 Sum=$(($A + $B))
 echo "Sum of two: $Sum"
 
+sum=`expr $A + $B`
+
+echo $sum
+
 Val='expr $A + $B'
 echo "Addition: $Val"
 Addition=$(('expr 2 + 2'))
