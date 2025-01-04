@@ -10,8 +10,10 @@ echo "SUM OF : $Sum"
 
 readonly VAR1
 
-read VAR1
+VAR1=10
+echo "Enter VAR3 VALUE"
+read VAR3
 
-SUM=` expr $VAR1 + $VAR2 `
+SUM=` expr $VAR1 + $VAR3 `
 
 echo "sum of after read only: $SUM"
