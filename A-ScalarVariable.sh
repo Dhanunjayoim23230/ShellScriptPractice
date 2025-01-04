@@ -11,9 +11,9 @@ B=20
 Sum=$(($A + $B))
 echo "Sum of two: $Sum"
 
-sum=`expr $A + $B`
+addition=`expr $A + $B`
 
-echo sum Copied from broweser :$sum
+echo addition Copied from broweser :$addition
 
 Val='expr $A + $B'
 echo "Addition: $Val"
