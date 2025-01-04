@@ -10,8 +10,8 @@ Val=expr $A + $B
 
 echo "Addition: $Val"
 
-Sum="(($A + $B))"
-Addition='expr 2 + 2'
+Sum=$(($A + $B))
+Addition=$(('expr 2 + 2'))
 echo "Sum of two: $Sum"
 echo "Additin of : $Addition"
 echo "Successfully created scalar variable-> used scalar variable syntax"
