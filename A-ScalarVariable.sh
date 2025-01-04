@@ -10,7 +10,7 @@ Val=expr $A + $B
 
 echo "Addition: $Val"
 
-Sum="(($A + $B))
+Sum="(($A + $B))"
 Addition='expr 2 + 2'
 echo "Sum of two: $Sum"
 echo "Additin of : $Addition"
