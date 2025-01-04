@@ -1,4 +1,4 @@
-#!/bin/bash #!/bin/sh
+#!/bin/bash
 
 #Write script using scalar variable
 # syntax Varible_name=Variable_value
@@ -6,7 +6,7 @@
 A=10
 B=20
 
-Val='expr $A + $B'
+Val= {'expr $A + $B '}
 
 echo "Addition: $Val"
 
