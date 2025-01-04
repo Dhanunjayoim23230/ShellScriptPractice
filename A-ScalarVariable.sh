@@ -12,14 +12,15 @@ Sum=$(($A + $B))
 echo "Sum of two: $Sum"
 
 addition=`expr $A + $B`
-
 echo addition Copied from broweser :$addition
 
-Val='expr $A + $B'
+Val=`expr $A + $B`
 echo "Addition: $Val"
-Addition=$(('expr 2 + 2'))
 
+Addition=$((`expr 2 + 2`))
 echo "Additin of : $Addition"
+
+
 echo "Successfully created scalar variable-> used scalar variable syntax"
 
 echo "************************************************"
