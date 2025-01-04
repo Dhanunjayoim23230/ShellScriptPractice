@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash #!/bin/sh
 
 #Write script using scalar variable
 # syntax Varible_name=Variable_value
