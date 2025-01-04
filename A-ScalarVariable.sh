@@ -13,7 +13,7 @@ echo "Sum of two: $Sum"
 
 sum=`expr $A + $B`
 
-echo $sum
+echo sum Copied from broweser :$sum
 
 Val='expr $A + $B'
 echo "Addition: $Val"
