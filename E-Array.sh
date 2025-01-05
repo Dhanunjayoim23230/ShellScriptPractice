@@ -11,7 +11,7 @@ Arr[1]=2
 Arr[2]=3
 Arr[A]={4,5,6,7,8}
 
-sum=` expr ${Arr[0]} + ${Arr[1]} `
+sum=` &((${Arr[0]} + ${Arr[1]}))  `
 echo "print output of :$sum"
 diff=` expr ${Arr[2]} - ${Arr[A0]} `
 echo "print output of :$diff"
