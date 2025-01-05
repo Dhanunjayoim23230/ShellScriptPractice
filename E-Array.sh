@@ -14,6 +14,9 @@ Arr[A]={4,5,6,7,8}
 #echo “Selected index element at index $selected_index:”
 #echo “${arr[$selected_index]}”
 
+echo "Print value $Arr[A1]"
+echo "print vlaue $Arr[A2]"
+
 sum=&(({Arr[A0]} + {Arr[A1]}))
 echo "print output of :$sum"
 diff= expr ${Arr[2]} - ${Arr[$A0]}
