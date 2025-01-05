@@ -8,11 +8,11 @@
 VAR1=20
 VAR2=10
 
-SUM=` expr VAR1 = VAR2 `
+SUM=` expr VAR1 + VAR2 `
 echo "print sum of: $SUM"
 unset VAR2
 
 VAR2=$1
 
-SUM2=` expr VAR1 = VAR2 `
+SUM2=` expr VAR1 + VAR2 `
 echo "print sum after unset VAR2 and reassign value: $SUM2"
