@@ -14,11 +14,11 @@ Arr[A]={4,5,6,7,8}
 #echo “Selected index element at index $selected_index:”
 #echo “${arr[$selected_index]}”
 
-sum=` &(({Arr[$A0]} + {Arr[$A1]}))  `
+sum=&(({Arr[$A0]} + {Arr[$A1]}))
 echo "print output of :$sum"
-diff=` expr ${Arr[2]} - ${Arr[$A0]} `
+diff= expr ${Arr[2]} - ${Arr[$A0]}
 echo "print output of :$diff"
-multiply= `expr ${Arr[$A1]} * ${Arr[$A2]} `
+multiply= expr ${Arr[$A1]} * ${Arr[$A2]}
 echo "print output of :$multiply"
-divide= `expr $A{rr[A$3]} / ${Arr[$A4]} `
+divide= expr $A{rr[A$3]} / ${Arr[$A4]}
 echo "print output of :$divide"
