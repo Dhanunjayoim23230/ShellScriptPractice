@@ -12,16 +12,16 @@ F=$6
 
 
 Sum=$(($A + $B))
-echo "Sum of two: $Sum"
+echo "Sum of two $A,$B: $Sum"
 
 addition=`expr $C + $D`
-echo addition Copied from broweser :$addition
+echo Sum of two $C,$D :$addition
 
 Val=$((`expr $E + $F `))
-echo "Addition: $Val"
+echo "Sum of two $E,$F: $Val"
 
 Addition=$((` expr 2 + 2 `))
-echo "Additin of : $Addition"
+echo "Sum of two 2,2: $Addition"
 
 
 echo "Successfully created scalar variable-> used scalar variable syntax"
