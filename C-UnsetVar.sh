@@ -11,4 +11,4 @@ VAR2=10
 SUM=` expr $VAR1 + $VAR2 `
 echo "print sum of: $SUM"
 unset VAR2
-echo "print sum after unset VAR2 and reassign value: $VAR2"
+echo "print unset VAR2 value: $VAR2 $VAR1  "
