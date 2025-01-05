@@ -17,10 +17,10 @@ echo "Sum of two: $Sum"
 addition=`expr $C + $D`
 echo addition Copied from broweser :$addition
 
-Val=`expr $E + $F`
+Val=`expr $E + $F `
 echo "Addition: $Val"
 
-Addition=$((`expr 2 + 2`))
+Addition=$((` expr 2 + 2 `))
 echo "Additin of : $Addition"
 
 
