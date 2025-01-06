@@ -7,7 +7,7 @@
 
 
 
-Arr[A]={4,5,6,7,8}
+Arr[5]=("4" "5" "6" "7" "8")
 
 # To print a selected index element
 #selected_index=3
@@ -16,6 +16,8 @@ Arr[A]={4,5,6,7,8}
 
 echo "Print value ${Arr[0]}"
 echo "print vlaue ${Arr[1]}"
+echo "print vlaue ${Arr[@]}"
+echo "print vlaue ${Arr[*]}"
 
 sum=&(({Arr[0]} + {Arr[1]}))
 echo "print output of :$sum"
