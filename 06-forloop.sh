@@ -24,12 +24,15 @@
 
 #Required variable creation
 
-echo "enter input table number"
+echo "enter input table number $1"
 Table=$1
 echo "Enter increment value"
 A=1
 
-Multiply=$((` expr $Table \* $A `))
-
-echo " $Table * $A = $Multiply "
+for A in {1 2 3 4 5 6 7 8 9 10}
+do
+    echo "output: $A"
+    Multiply=$((` expr $Table \* $A `))
+    echo " $Table * $A = $Multiply "
+done
 
