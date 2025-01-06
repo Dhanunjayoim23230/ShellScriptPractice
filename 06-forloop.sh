@@ -29,6 +29,7 @@ Table=$1
 echo "Enter increment value"
 A=1
 
-Multply=$(( `expr $Table + $A `))
-echo " $Table * $A = $Multiply"
+Multiply=$((` expr $Table \* $A `))
+
+echo " $Table * $A = $Multiply "
 
