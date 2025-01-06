@@ -30,7 +30,7 @@ Table=$1
 echo "Enter increment value"
 
 
-for A in {1..10}
+for A in `seq 2 $max`  #{1..10}
 do
     Multiply=$((` expr $Table \* $A `))
     echo " $Table * $A = $Multiply "
