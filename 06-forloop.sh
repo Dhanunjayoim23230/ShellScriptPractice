@@ -29,9 +29,8 @@ Table=$1
 echo "Enter increment value"
 A=1
 
-for A in {1 2 3 4 5 6 7 8 9 10}
+for A in 1 2 3 4 5 6 7 8 9 10
 do
-    echo "output: $A"
     Multiply=$((` expr $Table \* $A `))
     echo " $Table * $A = $Multiply "
 done
