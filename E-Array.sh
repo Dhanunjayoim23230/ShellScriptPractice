@@ -7,7 +7,7 @@
 
 
 
-Arr[5]=("4" "5" "6" "7" "8")
+Arr=("4" "5" "6" "7" "8")
 
 # To print a selected index element
 #selected_index=3
