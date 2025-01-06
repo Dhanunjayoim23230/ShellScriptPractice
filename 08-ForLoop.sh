@@ -20,11 +20,11 @@ C=$3
 for A in ` seq 1 $B `
 do
 output=$((` expr $A % $C `)) 
-if [$output -eq 0]
-then
-echo "print output value which is exact divisible by $3 : $output"
-echo "print divisor value $A"
-else 
-echo "MOdulus for $A-->$output"
-fi
-done
+# if [$output -eq 0]
+# then
+# echo "print output value which is exact divisible by $3 : $output"
+# echo "print divisor value $A"
+# else 
+ echo "MOdulus for $A-->$output"
+# fi
+ done
