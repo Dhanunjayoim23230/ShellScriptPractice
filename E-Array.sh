@@ -19,7 +19,7 @@ echo "print vlaue ${Arr[1]}"
 echo "print vlaue ${Arr[@]}"
 echo "print vlaue ${Arr[*]}"
 
-sum=&(({Arr[0]} + {Arr[1]}))
+sum=&((${Arr[0]} + {$Arr[1]}))
 echo "print output of :$sum"
 diff= expr ${Arr[2]} - ${Arr[$A0]}
 echo "print output of :$diff"

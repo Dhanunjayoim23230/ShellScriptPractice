@@ -12,7 +12,7 @@ Sum=$(($A + $B))
 echo "Sum of two: $Sum"
 
 addition=`expr $A + $B`
-echo addition Copied from broweser :$addition
+echo addition Copied from browser :$addition
 
 Val=`expr $A + $B`
 echo "Addition: $Val"
