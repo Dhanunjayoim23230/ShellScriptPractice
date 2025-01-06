@@ -19,7 +19,8 @@ C=$3
 
 for A in ` seq 1 $B `
 do
-output=$((` expr $B % $C `)) 
+output=$((` expr $A % $C `)) 
 echo "print output value which is exact divisible by $3 : $output"
+echo "print divisor value $A"
 
 done
