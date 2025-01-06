@@ -28,9 +28,9 @@
 echo "enter input table number $1"
 Table=$1
 echo "Enter increment value"
-Max=10
 
-for A in {1..$Max}
+
+for A in {1..10}
 do
     Multiply=$((` expr $Table \* $A `))
     echo " $Table * $A = $Multiply "
