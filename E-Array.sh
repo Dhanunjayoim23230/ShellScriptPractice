@@ -22,6 +22,9 @@ echo "print vlaue ${Arr[*]}"
 Sum1=` expr ${Arr[0]} + ${Arr[1]} `
 echo "print value of Sum1 :$Sum1"
 
+Diff=` expr ${Arr[2]} - ${Arr[3]} `
+echo "Print value of difference :$Diff"
+
 #sum=&((${Arr[0]} + {$Arr[1]}))
 #echo "print output of :$sum"
 # diff= expr ${Arr[2]} - ${Arr[$A0]}
