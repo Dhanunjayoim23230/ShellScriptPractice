@@ -19,11 +19,14 @@ echo "print vlaue ${Arr[1]}"
 echo "print vlaue ${Arr[@]}"
 echo "print vlaue ${Arr[*]}"
 
-sum=&((${Arr[0]} + {$Arr[1]}))
-echo "print output of :$sum"
-diff= expr ${Arr[2]} - ${Arr[$A0]}
-echo "print output of :$diff"
-multiply= expr ${Arr[$A1]} * ${Arr[$A2]}
-echo "print output of :$multiply"
-divide= expr $A{rr[A$3]} / ${Arr[$A4]}
-echo "print output of :$divide"
+Sum1=` expr ${Arr[0]} + ${Arr[1]} `
+echo "print value of :$Sum1"
+
+#sum=&((${Arr[0]} + {$Arr[1]}))
+#echo "print output of :$sum"
+# diff= expr ${Arr[2]} - ${Arr[$A0]}
+# echo "print output of :$diff"
+# multiply= expr ${Arr[$A1]} * ${Arr[$A2]}
+# echo "print output of :$multiply"
+# divide= expr $A{rr[A$3]} / ${Arr[$A4]}
+# echo "print output of :$divide"
