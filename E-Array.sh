@@ -25,6 +25,9 @@ echo "print value of Sum1 :$Sum1"
 Diff=` expr ${Arr[2]} - ${Arr[3]} `
 echo "Print value of difference :$Diff"
 
+Multiply=` expr ${Arr[3]} * ${Arr[4]} `
+echo "Print value of multiply:$Multiply"
+
 #sum=&((${Arr[0]} + {$Arr[1]}))
 #echo "print output of :$sum"
 # diff= expr ${Arr[2]} - ${Arr[$A0]}
