@@ -17,5 +17,5 @@ A=$1
 B=$2
 C=$3
 
-output= ` expr $B % $A`
+output= ` expr $B % $C`
 echo "print output value which is exact divisible by $3"
