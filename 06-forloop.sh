@@ -13,6 +13,7 @@
 #exit from sftp server
 #exit from server
 
+#Algorithm steps for TABLE printing
 #Creating table using for loop
 #1.Enter the i/p table number
 #2.MUltiply i/p * 1 equal to o/p
