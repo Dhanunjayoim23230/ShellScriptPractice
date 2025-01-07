@@ -23,11 +23,12 @@ do
 output=$((` expr $A % $C `)) 
 if [ $output -eq 0 ]
 then
- #echo "print output value which is exact divisible by $3 : $output"
- #echo "MOdulus for $A-->$output"
- Sum=$A
- #echo "sum of seq 1 $B:$Sum"
+ echo "print output value which is exact divisible by $3 : $output"
+ echo "MOdulus for $A-->$output"
+ Return=$A
+ Sum=$(($A + $Return))
+ echo "sum of seq 1 $B:$Sum"
 fi
  done
 
-  echo "sum of seq 1 to $B:$Sum"
+  #echo "sum of seq 1 to $B:$Sum"
