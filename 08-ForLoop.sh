@@ -20,7 +20,7 @@ C=$3
 for A in ` seq 1 $B `
 do
 output=$((` expr $A % $C `)) 
-if $output -eq 0
+if [ $output -eq 0 ]
 then
  echo "print output value which is exact divisible by $3 : $output"
  echo "MOdulus for $A-->$output"
