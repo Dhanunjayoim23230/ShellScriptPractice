@@ -21,15 +21,19 @@ C=$2
 for A in ` seq 1 $B `
 do
 output=$((` expr $A % $C `)) 
-if [ $output -eq 0 ]
-then
- #echo "print output value which is exact divisible by $3 : $output"
- echo "MOdulus for $A-->$output"
- Return=$A
- echo "$Return"
- Sum=$(($A + $Return))
- echo "sum of seq 1to $B:$Sum"
-fi
+    if [ $output -eq 0 ]
+    then
+    #echo "print output value which is exact divisible by $3 : $output"
+    echo "MOdulus for $A-->$output"
+    Sum+=$A
+        # for num in ` seq 1 $A `
+        # do
+        #     read $A
+        #     echo "$Return"
+        #     #Sum=$(($A + $Return))
+    echo "sum of seq 1to $B:$Sum"
+        # done
+    fi
  done
 
   #echo "sum of seq 1 to $B:$Sum"
