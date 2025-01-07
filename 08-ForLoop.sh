@@ -9,9 +9,9 @@
 #5.Repeat the same till reaching end number.
 #6.do Sum all the divisor at the end
 
-echo "enter starting number $1"
-echo "Enter ending number $2"
-echo "Enter divisible number $3"
+#echo "enter starting number $1"
+echo "Enter ending number $1"
+echo "Enter divisible number $2"
 
 
 #A=$1
