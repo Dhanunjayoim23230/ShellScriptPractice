@@ -23,7 +23,7 @@ do
 output=$((` expr $A % $C `)) 
 if [ $output -eq 0 ]
 then
- echo "print output value which is exact divisible by $3 : $output"
+ #echo "print output value which is exact divisible by $3 : $output"
  echo "MOdulus for $A-->$output"
  echo "$A" | Return
  Sum=$(($A + Return))
