@@ -26,8 +26,9 @@ then
  #echo "print output value which is exact divisible by $3 : $output"
  echo "MOdulus for $A-->$output"
  echo "$A" | Return
- Sum=$(($A + Return))
- echo "sum of seq 1 $B:$Sum"
+ echo "$Return"
+ Sum=$(($A + $Return))
+ echo "sum of seq 1to $B:$Sum"
 fi
  done
 
