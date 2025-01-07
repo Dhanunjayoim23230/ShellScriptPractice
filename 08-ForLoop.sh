@@ -25,7 +25,7 @@ if [ $output -eq 0 ]
 then
  #echo "print output value which is exact divisible by $3 : $output"
  echo "MOdulus for $A-->$output"
- echo "$A" | Return
+ Return=$A
  echo "$Return"
  Sum=$(($A + $Return))
  echo "sum of seq 1to $B:$Sum"
