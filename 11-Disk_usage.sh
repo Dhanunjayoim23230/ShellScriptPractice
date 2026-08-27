@@ -18,4 +18,4 @@ do
 
 done <<< $DISC_USAGE
 
-echo "$msg"
+echo "$msg \n"
