@@ -13,7 +13,7 @@ do
     echo "$partition"
     if [ "$usage" -ge 10 ]
     then
-        msg+="High disc usage: "$usage" and partition is: "$partition" <br> "
+        msg+="High disc usage: "$usage" and partition is: "$partition" \n "
     fi
 
 done <<< $DISC_USAGE
