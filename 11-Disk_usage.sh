@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DISC_USAGE=$(df -hT | grep xfs)
-DISC_THRESHOLD= 70
+DISC_THRESHOLD=70
 MSG=" "
 
 
