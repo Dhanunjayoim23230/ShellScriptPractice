@@ -8,6 +8,6 @@ MSG=" "
 while read -r line
 do
     usage=$(echo "$line" | awk -F " " '{print $6F}')
- 
+    echo "$usage"
 
 done <<< $DISC_USAGE
