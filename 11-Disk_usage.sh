@@ -7,7 +7,7 @@ MSG=" "
 
 while read -r line
 do
-    usage=$(echo "$line" | awk -F " " '{print $6F}' | cut -d "%" -f1)
+    usage=$(echo "$line" | awk -F " " '{print $6F}' | cut -d "%" -f7)
     echo "$usage"
     partition=$(echo "$line" | awk -F " " '{print $3F}')
     echo "$partition"
