@@ -11,9 +11,9 @@ do
     echo "$usage"
     partition=$(echo "$line" | awk -F " " '{print $7F}')
     echo "$partition"
-    if [ "$usage" -gt 10 ]
+    if [ "$usage" -ge 10 ]
     then
-        msg+="High disc usage: "$usage" and partition is: "$partition" \n "
+        msg+="High disc usage: "$usage" and partition is: "$partition" <br> "
     fi
 
 done <<< $DISC_USAGE
